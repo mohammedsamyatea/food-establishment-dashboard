@@ -1,0 +1,28 @@
+body { font-family: Arial, sans-serif; background:#f5f6fa; margin:0; padding:20px; }
+
+.establishment-header { margin-bottom:20px; }
+.establishment-main { font-size:22px; font-weight:600; display:flex; gap:8px; align-items:center; }
+.est-meta { font-size:12px; color:#666; display:flex; gap:12px; margin-top:4px; }
+
+.badge { padding:3px 8px; border-radius:12px; font-size:11px; font-weight:600; }
+
+.badge-risk-high { background:#ffe5e5; color:#d60000; }
+.badge-grade-a { background:#e5ffe8; color:#0a8a1f; }
+.status-active { background:#e5ffe8; color:#0a8a1f; }
+
+.summary-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:20px; }
+.summary-card { background:#fff; padding:12px; border-radius:8px; border:1px solid #ddd; }
+.summary-label { font-size:11px; color:#777; text-transform:uppercase; }
+.summary-value { font-size:14px; font-weight:600; margin-top:4px; }
+.summary-meta { font-size:11px; color:#777; margin-top:4px; }
+
+.panel { background:#fff; padding:16px; border-radius:8px; border:1px solid #ddd; margin-bottom:20px; }
+.panel-title { font-size:16px; font-weight:600; margin-bottom:12px; }
+.panel-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; }
+
+.field-label { font-size:11px; color:#777; text-transform:uppercase; }
+.field-value { font-size:13px; font-weight:500; }
+
+table { width:100%; border-collapse:collapse; }
+th, td { padding:8px; border-bottom:1px solid #ddd; text-align:left; }
+th { background:#f0f0f0; font-size:11px; text-transform:uppercase; }
